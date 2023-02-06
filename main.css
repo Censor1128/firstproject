@@ -1,26 +1,144 @@
-.container{
-    background-color: blue;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 20px;
-    display: flex;
-    padding: 30px;
+body{
+  margin: 20px;
+  background-size: 30px;
+  padding: 10px;
+  background-color: antiquewhite;
+  
+
+ 
 }
 
-.part2>ul>li{
-    display: inline;
-}
-h1{
+
+.container{
     display: flex;
+    justify-content: space-between;
+    
+  
 }
-.part3 > ul > li{
+.sideone{
+    font-size: 7px;
+    display: flex;
+    padding: 10px;
+   font-family: Verdana;
+   display: inline-flex ; 
+  
+}
+.sideone>h1{
+    margin: 0px 10px 0px 0px;
+}
+.sidetwo>ul>li{
     display: inline;
-    color: aliceblue;
-    background: greenyellow;
+    padding: 10px;
+   font-family: Verdana;
+   
+   
+
+}
+.sidetwo>ul>li>a{
+    text-decoration: none;
+}
+
+.container2{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+   margin-left: 20px;
+   padding-left: 0px;
+}
+.leftside{
+    padding: 100px;
+    font-size: larger;
+   margin: auto;
+   color:black;
+   
+    
+}
+.rightside{
+   padding: 10px;
+  margin-right: 20px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    background-color: plum;
+    height: 300px;
+    margin: 0px;
+    padding: 30px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+   
+}
+.leftside2{
+    color: black;
+    font-family: Arial;
+    border-bottom: 30px;
+    padding: 60px;
+    margin: 30px;
+   
+
+}
+.rightside2{
+    font-family: arial;
+    padding: 60px;
+    margin: 30px;
+}.leftside2>a{
+    text-decoration: none;
+    color: black;
+}
+.rightside2>a{
+    text-decoration: none;
+  color: black;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+     padding: 50px;
+    
+    
+}
+
+.leftimage{
+    padding: 0px;
+    margin: 5px;
+    text-decoration: none;
+   
+   
+}
+.rightimage{
+    padding: 20px;
+    margin: 5px;
+}
+
+    
+.container5{
+    padding: 100px;
+    text-justify: auto;
+    margin: 200px;
+    color: black;
+    
+    
+    
+}
+
+
+button{
+    background-color: blueviolet;
     border-radius: 10px;
+    padding: 14px;
+    margin: 30px;
+  color: white;
 }
-.part1>h1{
-    color: white;
+a{
+    text-decoration: none;
+
 }
-.part1>h1>span{
-    color: aqua;
+span{
+    color: green;
+ font-style: bold;
+ font-family: Arial;
+ font-weight: bolder;
 }
